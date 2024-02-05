@@ -4,7 +4,7 @@
   "description": "This is a compilation of coding questions with optimal solutions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,23 @@
   "bugs": {
     "url": "https://github.com/rghorbani/coding-interview-questions/issues"
   },
-  "homepage": "https://github.com/rghorbani/coding-interview-questions#readme"
+  "homepage": "https://github.com/rghorbani/coding-interview-questions#readme",
+  "keywords": [
+    "hackerrank",
+    "leetcode",
+    "interview",
+    "algorithms",
+    "data-structures",
+    "map",
+    "dynamic",
+    "strings",
+    "arrays",
+    "trees",
+    "graph-algorithms",
+    "recursion",
+    "sorting"
+  ],
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
