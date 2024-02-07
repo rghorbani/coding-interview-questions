@@ -10,7 +10,7 @@
 function commonChild(s1, s2) {
     const len = s1.length;
     const matrix = Array.from({ length: len + 1}, () => Array(len + 1).fill(0));
-    
+
     for (let i = 1; i <= len; i++) {
         for (let j = 1; j <= len; j++) {
             if (s1[i - 1] === s2[j - 1]) {
@@ -20,6 +20,6 @@ function commonChild(s1, s2) {
             }
         }
     }
-    
+
     return matrix[len][len]
 }
